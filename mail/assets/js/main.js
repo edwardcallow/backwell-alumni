@@ -141,20 +141,41 @@
 			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
 
-					/*event.stopPropagation();
+					event.stopPropagation();
 					event.preventDefault();
 
 					// Hide message.
 						$message._hide();
 
 					// Disable submit.
-						$submit.disabled = true;*/
+						$submit.disabled = true;
 
 					// Process form.
 					// Note: Doesn't actually do anything yet (other than report back with a "thank you"),
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
 
+							// Actually do something?
+								var message = "";
+								$("sendmessage").on("click", function() {
+									message = $("signup-form").serialize();
+									$.ajax({
+										url: "https://formspree.io/11edwcal@backwellalumni.uk",
+										method: "POST",
+										data: {message: message},
+										dataType: "json"
+									})
+									// Reset form.
+								$form.reset();
+
+							// Enable submit.
+								$submit.disabled = false;
+
+							// Show message.
+								$message._show('success', 'Thank you!');
+								//$message._show('failure', 'Something went wrong. Please try again.');
+								})
+/*
 							// Reset form.
 								$form.reset();
 
@@ -164,7 +185,7 @@
 							// Show message.
 								$message._show('success', 'Thank you!');
 								//$message._show('failure', 'Something went wrong. Please try again.');
-
+*/
 						}, 750);
 
 				});
