@@ -1137,6 +1137,7 @@
 				}
 
 			#footer .copyright a {
+				border-bottom: none;
 				color: inherit;
 			}
 
