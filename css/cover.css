@@ -136,6 +136,15 @@ body {
   color: rgba(255,255,255,.5);
 }
 
+.mastfoot a {
+  color: rgba(255,255,255,.5);
+}
+
+.mastfoot a:focus,
+a:hover {
+  color: #fff;
+}
+
 
 /*
  * Affix and center
