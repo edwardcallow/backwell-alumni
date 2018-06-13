@@ -21,7 +21,9 @@ a:hover {
 
 /* Custom single-word emphasis colour */
 .blue-word {
-  color: #196eb3;
+  /* color: #196eb3; */
+  font-weight: bold;
+  border-bottom: solid;
 }
 
 /*
