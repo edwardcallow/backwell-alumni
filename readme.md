@@ -1,3 +1,3 @@
 # backwell-alumni
 
-Available at [backwellalumni.uk](https://www.backwellalumni.uk)
+The Backwell Alumni website, available at [backwellalumni.uk](https://www.backwellalumni.uk).
