@@ -5,3 +5,9 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+#masthead-logo {
+  max-height: 50px;
+  margin-bottom: .5rem;
+  width: auto;
+}
