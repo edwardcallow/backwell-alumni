@@ -48,6 +48,53 @@ body {
   font-size: 85%;
 }
 
+.pill-award {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.pill-chicago {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.pill-committee {
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+.pill-council {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pill-footloose {
+  background-color: #e83e8c;
+  color: #fff;
+}
+
+.pill-hairspray {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.pill-head {
+  background-color: #20c997;
+  color: #fff;
+}
+
+.pill-radio {
+  background-color: #fd7e14;
+  color: #000;
+}
+
+.pill-senior {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.pill-
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
