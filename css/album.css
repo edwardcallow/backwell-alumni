@@ -78,18 +78,38 @@ body {
   color: #fff;
 }
 
+.pill-hsm {
+  background-color: #6c757d;
+  color: #fff;
+}
+
 .pill-head {
   background-color: #20c997;
   color: #fff;
 }
 
+.pill-misc {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
 .pill-radio {
   background-color: #fd7e14;
-  color: #000;
+  color: #fff;
 }
 
 .pill-senior {
   background-color: #28a745;
+  color: #fff;
+}
+
+.pill-ttg {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.pill-uni {
+  background-color: #b58840;
   color: #fff;
 }
 
