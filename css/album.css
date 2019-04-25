@@ -89,8 +89,10 @@ body {
 }
 
 .pill-misc {
-  background-color: #f8f9fa;
-  color: #000;
+ /* background-color: #f8f9fa;
+  color: #000;*/
+  background-color: #6c757d;
+  color: #fff;
 }
 
 .pill-radio {
